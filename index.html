@@ -32,23 +32,31 @@
 <body>
     <header class="container-fluid">
         <nav class="navbar navbar-expand-sm justify-content-between m-2 align-items-center">
-            <ul class="navbar-nav w-25">
+            <ul class="navbar-nav w-25 ms-4 me-auto">
                 <li class="nav-item">
-                    <h3 class="fw-2">EDGECUT</h3>
+                    <h3 class="fw-2 navbar-brand">EDGECUT</h3>
 
                 </li>
             </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item mx-3">HOME</li>
-                <li class="nav-item mx-3">ABOUT</li>
-                <li class="nav-item mx-3">FURNITURES</li>
-                <li class="nav-item mx-3">BLOG</li>
-                <li class="nav-item mx-3">CONTACT US</li>
-            </ul>
-            <ul class="navbar-nav w-25 justify-content-end">
-                <li class="nav-item mx-4">LOGIN <i class="fa-solid fa-user mx-3" style="color: #000000;"></i></li>
-                <li class="nav-item"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav align-items-center my-3 mb-3">
+                    <li class="nav-item mx-3">HOME</li>
+                    <li class="nav-item mx-3">ABOUT</li>
+                    <li class="nav-item mx-3">FURNITURES</li>
+                    <li class="nav-item mx-3">BLOG</li>
+                    <li class="nav-item mx-3">CONTACT US</li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-end align-items-center me-3 ms-auto">
+                    <li class="nav-item mx-4">LOGIN <i class="fa-solid fa-user  " style="color: #000000;"></i>
+                    </li>
+                    <li class="nav-item"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></li>
+                </ul>
+
+            </div>
         </nav>
     </header>
     <section class=" p-3">
@@ -87,20 +95,20 @@
                 </div>
                 <div class="carousel-item">
                     <div class=" container row mx-auto align-items-center">
-                        <div class="col-sm-12 col-md-7">
+                        <div class="col-sm-12 col-md-5">
                             <h2>FOR ALL YOUR FUTURE FURNITURE NEEDS</h2>
                             <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, obcaecati. Quam est
                                 deserunt itaque quod repellat ddebitis, possimus veniam illo! Aliquid.</P>
                             <botton class="btn btn-warning rounded-0 me-2">Contact Us</botton>
                             <botton class="btn btn-info rounded-0">About Us</botton>
                         </div>
-                        <div class="col-7">
-                            <img src="./images/haeder carousal 3.jpg" class="img-fluid w-100">
+                        <div class="col-sm-12 col-md-7">
+                            <img src="./images/header carousal 2.jpg" class="img-fluid">
 
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0"
                         class="active rounded-circle bg-dark" style="width: 10px; height: 10px;">
@@ -192,7 +200,7 @@
                         <h5 class="card-title">Look even Sligthly beleivable if you are.</h5>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, obcaecati. Quam est
                             deserunt itaque quod repellat ddebitis, possimus veniam illo! Aliquid.</P>
-        
+
                         <botton class="btn btn-info rounded-0">Book Now</botton>
                     </div>
                 </div>
@@ -204,7 +212,7 @@
                         <h5 class="card-title">Look even Sligthly beleivable if you are.</h5>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, obcaecati. Quam est
                             deserunt itaque quod repellat ddebitis, possimus veniam illo! Aliquid.</P>
-        
+
                         <botton class="btn btn-info rounded-0">Book Now</botton>
                     </div>
                 </div>
@@ -216,7 +224,7 @@
                         <h5 class="card-title">Look even Sligthly beleivable if you are.</h5>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, obcaecati. Quam est
                             deserunt itaque quod repellat ddebitis, possimus veniam illo! Aliquid.</P>
-        
+
                         <botton class="btn btn-info rounded-0">Book Now</botton>
                     </div>
                 </div>
@@ -239,9 +247,8 @@
                 </form>
             </div>
             <div class="col-sm-12 col-md">
-                <iframe
-                style="height:100%;width:100%;border:0;" frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=india&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?q=india&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
             </div>
         </div>
 
